@@ -6,15 +6,15 @@ class WolfGoatCabbage(Problem):
         super().__init__(initial, goal)
 
     # return True if is the given state is a goal state
-    def goal_test(state):
+    def goal_test(self, state):
         pass
 
     # returns the new state reached from the given state and the given action 
-    def result(state, action):
+    def result(self, state, action):
         pass
     
     # returns a list of valid actions in the given state
-    def actions(state):
+    def actions(self, state):
         pass
 
 if __name__ == "__main__":
