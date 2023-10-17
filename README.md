@@ -15,9 +15,8 @@ The search.py library is essential for the successful execution of this code, co
 ## How to Run
 To execute the program, simply run the wolf_goat_cabbage.py file:
 
-bash
-Copy code
 python3 wolf_goat_cabbage.py
+
 ## Output
 The program will output the steps of the solution, indicating the transitions from one side of the river to the other, following the rules of the problem. The output will display the steps for both the DFS and BFS algorithms. If there's no solution found, it will indicate so.
 
